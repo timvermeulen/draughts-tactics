@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <script type="module">import init from './draughts-tactics-gui-bc12eacd2d14cdf8.js';init('./draughts-tactics-gui-bc12eacd2d14cdf8_bg.wasm');</script>
+
+    <style>
+        html {
+            /* Remove touch delay: */
+            touch-action: manipulation;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 100%;
+            width: 100%;
+        }
+
+        canvas {
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+    </style>
+
+<link rel="preload" href="./draughts-tactics-gui-bc12eacd2d14cdf8_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="./draughts-tactics-gui-bc12eacd2d14cdf8.js"></head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+
+</body></html>
